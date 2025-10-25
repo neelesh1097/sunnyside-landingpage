@@ -175,3 +175,69 @@ a:hover {
 .p-2 { padding: 0.5rem; }
 .p-4 { padding: 1rem; }
 .p-8 { padding: 2rem; }
+
+
+/* .hero-bg-container {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+} */
+
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.hero-bg-container{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.navbar{
+  
+padding-block:50px;
+  padding-inline:40px;
+}
+
+.nav-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+}
+
+.ul-links{
+  display: flex;
+  gap:40px;
+  list-style: none;
+  
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+  font-family: 'Fraunces', serif;
+  letter-spacing: 10px;
+}
+
+.hero-content h1{
+  font-size: 39px;
+  color: white;
+  padding-bottom:5rem;
+}
+
+.hero-content img{
+  padding-bottom:5rem;
+}
