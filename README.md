@@ -2,6 +2,8 @@
 
 
 
+
+
 A modern and responsive landing page for **Sunnyside**, designed to be visually appealing and fully functional across devices. This project focuses on clean UI, smooth animations, and a professional layout.
 
 ---
